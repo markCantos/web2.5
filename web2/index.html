@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiper Carousel</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Mansalva' rel='stylesheet'>
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#author">Author</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+
+      <nav class="navbar">
+        <ul class="navbar-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#author">Author</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+      </div>
+    </header>
+
+
+ <div class= "container">
+       <a href="#" class = "logo"></a>
+       <img src="photo/file.png">
+      </div>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide pink">
+        <img src="photo/IMG_8242.JPG" alt="Slide 1">
+        <div class="slide-text">
+          <p>- LIFESTYLE -</p>
+          <h1>Ready for a getaway weekend</h1>
+          <p1>DEC 19 2024 | BY MARK CANTOS</p1>
+        </div>
+      </div>
+      <div class="swiper-slide blue">
+        <img src="photo/448575307_862156922617761_6704474061269435010_n.jpg" alt="Slide 2">
+        <div class="slide-text">
+          <p>- HOME & DECOR -</p>
+          <h1>10 Essential Tips for Designing a Cozy Living Room</h1>
+          <p1>JAN 15 2025 | BY LISA JOHNSON</p1>
+        </div>
+      </div>
+      <div class="swiper-slide red">
+        <img src="photo/interior-space-decorated-boho-style.jpg" alt="Slide 3">
+        <div class="slide-text">
+          <p>- BEAUTY -</p>
+          <h1>  Creating a Cozy Living Room</h1>
+          <p1>FEB 10 2025 | BY EMMA WILLIAMS</p1>
+        </div>
+      </div>
+      <div class="swiper-slide black">
+        <img src="photo/ruins.jpg" alt="Slide 4">
+        <div class="slide-text">
+          <p>- HOME -</p>
+          <h1>Old Mansion to Tourist Spot</h1>
+          <p1>MARCH 22 2025 | BY ALEX SMITH</p1>
+        </div>
+      </div>
+      <div class="swiper-slide black1">
+        <img src="photo/aerial-view-sandy-beach-with-tourists-swimming-beautiful-clear-sea-water-sumilon-island-beach-landing-near-oslob-cebu-philippines-boost-up-color-processing.jpg" alt="Slide 5">
+        <div class="slide-text">
+          <p>- Travel -</p>
+          <h1>A Taste of Travel</h1>
+          <p1>APRIL 5 2025 | BY SOPHIA BROWN</p1>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+   
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      speed: 400,
+      spaceBetween: 20, // Reduce space between slides for a smoother look
+      autoHeight: false, // Keep this if you want fixed height
+      direction: 'horizontal',
+      loop: true,  // Ensure loop is enabled for continuous autoplay
+
+      // Autoplay configuration
+      autoplay: {
+        delay: 5000, // 5 seconds between transitions
+        disableOnInteraction: false, // Continue autoplay after interactions like swiping
+      },
+
+      // Pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true, // Make pagination bullets clickable
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // Other configurations
+      effect: 'slide',
+      slidesPerView: 2,
+      centeredSlides: true,
+      grabCursor: true,
+    });
+  </script>
+  
+</body>
+</html>

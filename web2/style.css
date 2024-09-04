@@ -1,0 +1,139 @@
+
+
+.navbar {
+    background-color: #ffffff; 
+    padding: 10px 0; 
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    border: 1px solid #000000; 
+    height: 50px;
+
+  }
+  
+  .navbar-menu {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .navbar-menu li {
+    margin: 0 30px; 
+    height: 0 20px;
+margin-top: 15px;
+  }
+  
+  .navbar-menu a {
+    color: #000000; 
+    text-decoration: none; 
+    font-size: 20px; 
+    font-weight: lighter; 
+    transition: color 0.3s; 
+  }
+  
+  .navbar-menu a:hover {
+    color: #f0f0f0; 
+  }
+  
+ 
+  body {
+    overflow-x: hidden;
+    padding-top: 50px; 
+  }
+  .header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+
+  }
+  
+  .search-bar input {
+    position: relative;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    width: 300px;
+    top: 120px;
+  }
+
+  .logo{
+  background-image: url(photo/file.png);
+  width: 150px; /* Adjust size */
+  height: 40px; /* Adjust size */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-left: 500px; /* Adjust spacing */
+  }
+  .logo h1 {
+    font-family: 'Mansalva';
+    font-size: 60px;
+  }
+  
+.swiper-container {
+    width: 1500px;
+    height: 600px;
+    margin: 250px auto;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure slides don't wrap */
+  }
+  
+  .swiper-slide {
+    padding: 20px;
+    box-sizing: border-box; 
+    color: #fff; 
+    font-size: 18px;
+    text-align: center;
+    flex: 0 0 auto; 
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .slide-text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(140, 255, 0);
+    font-size: 10px; 
+    font-weight: lighter;
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  }
+  
+  .slide-text h1 {
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    font-size: 40px;
+  }
+  
+  .slide-text p1 {
+    color: rgb(255, 255, 255);
+    font-size: 7px;
+    font-family: sans-serif;
+    margin-top: 20px; 
+    display: block;
+  }
+  
+
+  .swiper-pagination {
+    position: relative;
+    bottom: 10px;
+    top:80%
+  }
+  
