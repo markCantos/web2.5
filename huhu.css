@@ -1,0 +1,671 @@
+body{
+    height: 200%;
+}
+
+
+.outer-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-left: 10px;
+    height: 150%;
+    
+  }
+  
+  .content-container {
+    flex: 1; 
+    text-align: center;
+
+  }
+
+  .container_2{
+    margin-top: 60px;
+
+  }
+
+  .content-container img{
+    height: 20vh;
+    width: 50px;
+  }
+
+  .content-container span{
+font-family: "Montserrat";
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+  }
+
+  .title h4{
+    font-family: "Cormorant Garmond";
+    color: #1b1b1b;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    margin: 0;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    outline: 0;
+  }
+
+  .category img{
+    width: 50px;
+    height: 20px;
+  }
+
+  .title span , p , h4{
+    margin-left: 80px;
+  
+  }
+
+  .description p{
+    margin: 0;
+    width: 80%;
+    margin-top: 10px;
+    letter-spacing: normal;
+    font-family: "Cormorant Garmond";
+text-align: justify;
+margin-left: 91px;
+    
+  }
+
+  .description img{
+    width: 80%;
+    height: 70vh;
+    margin-top: 15px;
+    
+  }
+
+  .description button{
+    display: flex;
+    margin-left: 91px;
+    
+  }
+  #bts {
+    margin-top: 15px;
+  }
+
+  button{
+    color: white;
+    background-color:#1b1b1b;
+    border: 1px solid transparent;
+    padding: 14px;
+    width: 130px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 1.67em;
+    font-weight: 500;
+    letter-spacing: .25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    outline: 0;
+    transition: color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
+    padding: 12px 43px;
+  }
+
+  .image img{
+    height: 37vh;
+
+  }
+
+  .image{
+    margin-top: 15px;
+  }
+
+  /* CATEGOORYYY TIME!!! */
+
+  .category-container img{
+    height: 30vh;
+    width: 70%;
+  }
+
+  .category-container{
+    overflow: hidden;
+text-align: center;
+width: 20%;
+  }
+
+  .coms ul, ol {
+    padding: 0;
+  }
+
+  .coms a{
+    text-decoration: none;
+  }
+
+
+.category-container p {
+    width: 120px;
+    text-align: center;
+    margin-left: 65px;
+}
+
+.category{
+    background-color: #d3d3d3;
+    padding: 13px;
+}
+
+.category img{
+  border-radius: 200%;
+  margin-top: 5px;
+  height: 20vh;
+}
+.subscribe{
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 18px;
+}
+
+.subscribe p{
+  margin: 0;
+  margin-left: 35px;
+  width: 150px;
+}
+
+.subscribe h3 {
+    width: 100px;
+    margin-left: 25%;
+
+}
+
+.subscribe button{
+  margin-top: 4px;
+}
+
+.buts button{
+    width: 80px;
+}
+
+/* MODAL AHHAAA*/
+
+#login-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); /* Adjust opacity as needed */
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: #fff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.80);
+  }
+  
+  .form {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close-modal {
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .login-form {
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-form input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .login-form button {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  /* CAROUSEL HAHAHA*/
+
+
+
+  .navbar {
+    background-color: #ffffff; 
+    padding: 10px 0; 
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    border: 1px solid #000000; 
+    height: 50px;
+
+  }
+  
+  .navbar-menu {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .navbar-menu li {
+    margin: 0 30px; 
+    height: 0 20px;
+margin-top: 15px;
+  }
+  
+  .navbar-menu a {
+    color: #000000; 
+    text-decoration: none; 
+    font-size: 20px; 
+    font-weight: lighter; 
+    transition: color 0.3s; 
+  }
+  
+  .navbar-menu a:hover {
+    color: #f0f0f0; 
+  }
+  
+ 
+  body {
+    overflow-x: hidden;
+    padding-top: 50px; 
+  }
+  .header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+
+  }
+  
+  .search-bar input {
+    position: relative;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    width: 300px;
+    top: 120px;
+  }
+
+  /* EDIT TOMMOROW */
+  .logo{
+  background-image: url(photo/file.png);
+  width: 150px; /* Adjust size */
+  height: 40px; /* Adjust size */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-left: 500px; /* Adjust spacing */
+  mix-blend-mode: multiply;
+  }
+
+  .logo h1 {
+    font-family: 'Mansalva';
+    font-size: 60px;
+  }
+  
+.swiper-container {
+    width: 80%;
+    height: 400px;
+    margin: 150px auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure slides don't wrap */
+    flex-grow: 1;
+  }
+  
+  .swiper-slide {
+    padding: 20px;
+    box-sizing: border-box; 
+    color: #fff; 
+    font-size: 18px;
+    text-align: center;
+    flex: 0 0 auto; 
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  .slide-text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(140, 255, 0);
+    font-size: 10px; 
+    font-weight: lighter;
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  }
+  
+  .slide-text h1 {
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+  
+  .slide-text p {
+    color: rgb(255, 255, 255);
+    font-size: 7px;
+    font-family: sans-serif;
+    margin-top: 20px; 
+    display: block;
+
+  }
+  
+
+  .swiper-pagination {
+    .swiper-pagination {
+      position: relative;
+      bottom: 100px; /* Adjust the bottom value as needed */
+      text-align: center;
+    }
+
+  }
+  
+  .swiper-container h1{
+    width: 155%;
+    text-align: center;
+  }
+
+ 
+  /* PARALLAX LEZZGO!!*/
+
+  .outer-container {
+    overflow: hidden; /* Prevent content overflowing the container */
+    position: relative; /* Establish a stacking context for layers */
+  }
+  
+  .outer-container::after {
+    content: ""; /* Add a pseudo-element for the background image */
+    background-image: url("images/beautiful-casual-woman-fashion-set_1203-7833.avif"); /* Replace with your image path */
+    background-size: cover; /* Ensure image fills the container */
+    background-position: center; /* Center the image */
+    position: absolute; /* Make the background image a positioned element */
+    top: 0; /* Position the image at the top */
+    left: 0; /* Position the image at the left */
+    width: 100%; 
+    height: 100%; 
+    z-index: -1; 
+    transform: translateZ(0); 
+  }
+  
+  .content-container {
+    position: relative; /* Establish a stacking context for foreground elements (optional) */
+    z-index: 1; /* Place the content container above the background */
+  }
+  
+  /* Optional: Add styles for foreground elements */
+  .image, .description {
+    transform: translateZ(5px); /* Set initial Z-axis position (positive for faster movement) */
+  }
+
+  /* UPPER PARALLAX*/
+
+  .parallax {
+    /* Set a background image for the parallax effect */
+    background-image: url("/images/mounts.jpg");
+    background-size: cover; /* Ensure image covers the entire element */
+    background-attachment: fixed; /* Fix the background to scroll slower */
+    height: 920px; /* Set a height for the element */
+    position: relative; /* Needed for child element positioning */
+
+  }
+
+  /* MEDIAQUERY HAAAA!!!!!!!!!!!!!!!!!!!!!!!*/
+
+ /* General styles (unchanged) */
+
+/* Media query for max-width 750px */
+@media screen and (max-width: 750px) {
+
+  .navbar{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+  }
+
+  .navbar-menu{
+    margin-left: 15%;
+  }
+  
+
+  /* Swiper container */
+  .swiper-container {
+    width: 100%; /* Ensure full width on smaller screens */
+  }
+
+  /* Swiper slides */
+  .swiper-slide {
+    width: 50%; /* Adjust slide width for responsive layout */
+  }
+
+  /* Navigation arrows (if used) */
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none; /* Hide navigation arrows on smaller screens */
+  }
+
+  /* Pagination (if used) */
+  .swiper-pagination {
+    display: flex; /* Center pagination horizontally */
+    justify-content: center;
+    margin-top: 10px; /* Add some spacing above pagination */
+  }
+  /* Content containers */
+  .container,
+  .container_2 {
+    width: 80%; /* Reduce content container width */
+    margin: 0 auto; /* Center content horizontally */
+  }
+
+  /* Title elements */
+  .title,
+  .title_2 {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  /* Description paragraphs */
+  .description p {
+    font-size: 0.8rem; /* Adjust paragraph font size */
+    
+  }
+
+  .description button{
+    margin-left: 56px;
+  }
+
+  /* Categories section */
+  .category-container {
+    flex-direction: column;
+   order: 2;
+   display: flex;
+   justify-content: center;
+  }
+
+  /* Category section adjustments */
+  .category,
+  .coms,
+  .subscribe {
+    width: 30%; /* Make each category section full width */
+    margin: 10px 0; /* Add spacing between sections */
+  }
+
+  /* Popular Blog images */
+  .category-container img {
+    width: 100%; /* Make popular blog images full width */
+  }
+
+  .description p{
+    font-size: 20px;
+    margin-left: 10%;
+   }
+   
+   
+    .outer-container{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .category-container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-left: 20%;
+  
+    }
+  
+    .category-container img{
+      width: 40%;
+  
+    }
+    .category-container span{
+      margin-right: 120px;
+  
+    }
+  
+    .category-container ul{
+      margin-left:60% 
+    }
+  
+  
+    .popular h3{
+      margin-right:60% ;
+      width: 40%;
+    }
+    .popular{
+      text-align: center;
+    }
+  
+    .category{
+      width: 50%;
+    }
+  
+    .subscribe{
+      width: 50%;
+    }
+  
+  .coms{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .coms h3{
+    margin-left: 60%;
+  }
+
+}
+
+@media screen and (max-width: 600px)  {
+  .navbar{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+  }
+
+  .navbar-menu{
+    margin-left: 8%;
+  }
+ .description p{
+  font-size: 30px;
+ }
+ 
+ 
+  .outer-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .category-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+
+  }
+
+  .category-container img{
+    width: 40%;
+
+  }
+  .category-container span{
+    margin-right: 120px;
+
+  }
+
+  .category-container ul{
+    margin-left:60% 
+  }
+
+
+  .popular h3{
+    margin-right:60% ;
+    width: 40%;
+  }
+  .popular{
+    text-align: center;
+  }
+
+  .category{
+    width: 50%;
+  }
+
+  .subscribe{
+    width: 50%;
+  }
+
+.coms{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.coms h3{
+  margin-left: 60%;
+}
+
+
+
+  
+}
+
